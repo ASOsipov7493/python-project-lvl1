@@ -23,4 +23,3 @@ def get_task_and_solution():
     )
 
     return task, str(correct_answer)
-    
