@@ -3,7 +3,7 @@
 """The scripts start the game 'Brain-prime'"""
 
 from brain_games.engine import engine
-from brain_games.games import prime_number
+from brain_games.games import prime_numbers
 
 
 def main():
@@ -12,7 +12,7 @@ def main():
     Parameters are missing.
     Returns: None
     """
-    engine(prime_number)
+    engine(prime_numbers)
 
 
 if __name__ == '__main__':
