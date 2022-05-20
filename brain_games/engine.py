@@ -43,4 +43,3 @@ def game_over(answer_user, correct_answer, name_user):
     """
     print("'{0}' is wrong answer ;(. Correct answer was '{1}'.".format(answer_user, correct_answer))  # noqa: E501
     print("Let's try again, {0}!".format(name_user))
-
